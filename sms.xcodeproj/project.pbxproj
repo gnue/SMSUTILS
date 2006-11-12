@@ -40,17 +40,17 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* sms_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sms_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F53269190A33FA2D00165A46 /* smsutils.c */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.c; path = smsutils.c; sourceTree = "<group>"; };
-		F532691A0A33FA2D00165A46 /* smsutils.h */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.h; path = smsutils.h; sourceTree = "<group>"; };
-		F53269600A33FC1D00165A46 /* doxygen.conf */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = text; path = doxygen.conf; sourceTree = "<group>"; };
+		F53269190A33FA2D00165A46 /* smsutils.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; path = smsutils.c; sourceTree = "<group>"; };
+		F532691A0A33FA2D00165A46 /* smsutils.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = smsutils.h; sourceTree = "<group>"; };
+		F53269600A33FC1D00165A46 /* doxygen.conf */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = text; path = doxygen.conf; sourceTree = "<group>"; };
 		F54708430A2FDA8400590FFC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		F59436A40A30401600614EAC /* getsms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = getsms; sourceTree = BUILT_PRODUCTS_DIR; };
-		F59436AC0A30403E00614EAC /* getsms.c */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.c; path = getsms.c; sourceTree = "<group>"; };
-		F5E070D60A303E5400AB1A12 /* sms_sample.m */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.objc; path = sms_sample.m; sourceTree = "<group>"; };
-		F5E070D70A303E5400AB1A12 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
-		F5E070D80A303E5400AB1A12 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
-		F5E070D90A303E5400AB1A12 /* sms_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = "-2147483647"; lastKnownFileType = sourcecode.c.h; path = sms_Prefix.pch; sourceTree = "<group>"; };
-		F5E070E70A303E6600AB1A12 /* CIMG2153.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CIMG2153.jpg; path = Resources/CIMG2153.jpg; sourceTree = "<group>"; };
+		F59436AC0A30403E00614EAC /* getsms.c */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.c; path = getsms.c; sourceTree = "<group>"; };
+		F5E070D60A303E5400AB1A12 /* sms_sample.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = sms_sample.m; sourceTree = "<group>"; };
+		F5E070D70A303E5400AB1A12 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		F5E070D80A303E5400AB1A12 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		F5E070D90A303E5400AB1A12 /* sms_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = sms_Prefix.pch; sourceTree = "<group>"; };
+		F5E070E70A303E6600AB1A12 /* CIMG2153.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG2153.jpg; sourceTree = "<group>"; };
 		F5E070E90A303E6600AB1A12 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5E070EB0A303E6600AB1A12 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,9 +110,6 @@
 				F53269180A33FA2D00165A46 /* smsutils */,
 				F5E070D50A303E5400AB1A12 /* Sources */,
 				F5E070E60A303E6600AB1A12 /* Resources */,
-				F5E070E70A303E6600AB1A12 /* CIMG2153.jpg */,
-				F5E070E80A303E6600AB1A12 /* InfoPlist.strings */,
-				F5FEF9850A304A2400174969 /* MainMenu.nib */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -135,7 +132,7 @@
 				F532691A0A33FA2D00165A46 /* smsutils.h */,
 				F53269190A33FA2D00165A46 /* smsutils.c */,
 			);
-			fileEncoding = "-2147483647";
+			fileEncoding = 0;
 			path = smsutils;
 			sourceTree = "<group>";
 		};
@@ -144,7 +141,7 @@
 			children = (
 				F53269600A33FC1D00165A46 /* doxygen.conf */,
 			);
-			fileEncoding = "-2147483647";
+			fileEncoding = 0;
 			path = misc;
 			sourceTree = "<group>";
 		};
@@ -157,13 +154,16 @@
 				F5E070D70A303E5400AB1A12 /* MyObject.h */,
 				F5E070D80A303E5400AB1A12 /* MyObject.m */,
 			);
-			fileEncoding = "-2147483647";
+			fileEncoding = 0;
 			path = Sources;
 			sourceTree = "<group>";
 		};
 		F5E070E60A303E6600AB1A12 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F5FEF9850A304A2400174969 /* MainMenu.nib */,
+				F5E070E80A303E6600AB1A12 /* InfoPlist.strings */,
+				F5E070E70A303E6600AB1A12 /* CIMG2153.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -280,7 +280,6 @@
 				F5E070E90A303E6600AB1A12 /* English */,
 			);
 			name = InfoPlist.strings;
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		F5FEF9850A304A2400174969 /* MainMenu.nib */ = {
@@ -289,6 +288,7 @@
 				F5E070EB0A303E6600AB1A12 /* English */,
 			);
 			name = MainMenu.nib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
