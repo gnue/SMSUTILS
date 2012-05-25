@@ -1,0 +1,41 @@
+= SMSUTILS =
+
+MacBook, MacBook Pro それに 2005年以降に発売された PowerBook G4, iBook G4 に搭載されたSMS（緊急モーションセンサ）を利用するためのユーティリティ・コードです。
+
+== 新着情報 ==
+
+  * [2006-06-06] trac でソースコードを一般公開しました
+  * [2006-06-03] [http://www.cocoa-study.com/ Cocoa勉強会] で『MacBookのSuddenMotionSensorで遊ぼう』を発表
+
+== 動作環境 ==
+
+  * 搭載した MacBook, MacBook Pro それに 2005年以降に発売された PowerBook G4, iBook G4
+  * IOKit フレームワークのリンクが必要
+
+== ドキュメント ==
+
+SMSUTILS ドキュメント [http://trac.so-kukan.com/doc/smsutils/ link]
+
+== ライセンス ==
+
+本ソフトウェアは修正BSDライセンスです。[http://trac.so-kukan.com/doc/smsutils/LICENSE.html link]
+
+== Subversion レポジトリ ==
+
+svn co svn://so-kukan.com/tools/mac/SMSUTILS/trunk から最新のソースコードを取得できます。
+
+{{{
+$ svn co svn://so-kukan.com/tools/mac/SMSUTILS/trunk SMSUTILS
+}}}
+
+
+リポジトリブラウザへのショートカット [browser:/mac/SMSUTILS link]
+
+== 作者 ==
+
+GNUE(鵺) <[mailto:gnue@so-kukan.com gnue@so-kukan.com]>
+
+== 参考 ==
+
+ * http://pallit.lhi.is/palli/dashlevel/ の motion.c を参考にさせていただきました。
+ * SMS の概要は http://osxbook.com/book/bonus/chapter10/ams/ が参考になります。
